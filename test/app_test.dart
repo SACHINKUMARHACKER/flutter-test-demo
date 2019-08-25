@@ -6,6 +6,6 @@ import 'package:flutter_test_demo/main.dart';
 void main() {
   testWidgets('app should work', (tester) async {
     await tester.pumpWidget(new MyApp());
-    expect(find.text('Hello, World!'), findsOneWidget);
+    expect(find.text('Hello World'), findsOneWidget);
   });
 }
